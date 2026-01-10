@@ -25,6 +25,7 @@ on:
   pull_request_target:
     types:
       - assigned
+  workflow_dispatch:
 
 jobs:
   detect-event:
